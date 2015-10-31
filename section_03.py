@@ -56,3 +56,45 @@ to the console on line 4!"""
 
 print "Monty Python"
 print "Ya"
+
+
+"""Assign the string "Ping!" to
+the variable the_machine_goes on
+line 5, then print it out on line 6!"""
+
+the_machine_goes = "Ping!"
+print the_machine_goes
+
+# Print the concatenation of "Spam and eggs" on line 3!
+
+print "Spam " + "and " + "eggs"
+
+# Turn 3.14 into a string on line 3!
+
+str(3.14)
+print "The value of pi is around " + "3.14"
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+
+
+name = raw_input("What is your name?")
+quest = raw_input("What is your quest?")
+color = raw_input("What is your favorite color?")
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+
+
+# Write your code below, starting on line 3!
+
+my_string = "Mari"
+print len(my_string)
+print my_string.upper()
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
